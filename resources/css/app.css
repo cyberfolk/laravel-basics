@@ -1,0 +1,16 @@
+:root {
+    --fs_header_h: 8rem;
+    --fs_footer_h: 3.5rem;
+}
+
+#app_header {
+    height: var(--fs_header_h);
+}
+
+#app_main {
+    height: calc(100vh - var(--fs_header_h) - var(--fs_footer_h));
+}
+
+#app_footer {
+    height: var(--fs_footer_h);
+}

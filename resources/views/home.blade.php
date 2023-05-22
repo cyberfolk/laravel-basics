@@ -8,7 +8,7 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- my style css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="{{ asset('resources/css/app.css') }}" rel="stylesheet">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Home</title>
@@ -40,13 +40,14 @@
                 </div>
             </div>
         </nav>
-        <h1 class="text-center text-warning m-auto"> Home </h1>
+        <h1 class="text-center text-warning m-auto"> {{$title}} </h1>
+
     </header>
     <!-- /#app_header -->
 
     <main id="app_main">
         <div class="container">
-            <p></p>
+            <img src="{{$imagePath}}" alt="">
         </div>
         <!-- /.container -->
     </main>
@@ -54,23 +55,10 @@
 
     <footer id="app_footer" class="text-center py-3 bg-secondary">
         <div class="container">
-            <span class="text-center text-light"> Made with love &copy; powered by cyberfolk</span>
+            <span class="text-center text-light"> Made with love &copy; powered by {{$author}}</span>
         </div>
     </footer>
     <!-- /#app_footer -->
 </body>
-<style>
-    #app_header {
-        height: 8rem;
-    }
-
-    #app_main {
-        height: calc(100vh - 3.5rem - 8rem);
-    }
-
-    #app_footer {
-        height: 3.5rem;
-    }
-</style>
 
 </html>
