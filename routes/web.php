@@ -17,10 +17,11 @@ Route::get('/', function () {
     $data = [
         "title" => "Home",
         "author" => "cyberfolk",
-        "imagePath" => "https://picsum.photos/100/100"
+        "imagePath" => "https://picsum.photos/100/100?random&t=",
+        "imageNum" =>  100,
     ];
     return view('home', $data);
-});
+})->name('home');
 
 Route::get('/pag1', function () {
     $data = [
@@ -29,7 +30,7 @@ Route::get('/pag1', function () {
         "imagePath" => "https://picsum.photos"
     ];
     return view('pag1');
-});
+})->name('pag1');
 
 Route::get('/pag2', function () {
     $data = [
@@ -38,7 +39,7 @@ Route::get('/pag2', function () {
         "imagePath" => "https://picsum.photos"
     ];
     return view('pag2');
-});
+})->name('pag2');
 
 Route::get('/pag3', function () {
     $data = [
@@ -47,4 +48,4 @@ Route::get('/pag3', function () {
         "imagePath" => "https://picsum.photos"
     ];
     return view('pag3');
-});
+})->name('pag3');
