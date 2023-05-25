@@ -27,8 +27,8 @@
                             <span>{{ $train->arrival_station }}</span>
                         </li>
                         <li class="list-group-item">
-                            <span class="fw-bold">time_station: </span>
-                            <span>{{ $train->time_station }}</span>
+                            <span class="fw-bold">time_departure: </span>
+                            <span>{{ $train->time_departure }}</span>
                         </li>
                         <li class="list-group-item">
                             <span class="fw-bold">time_arrival: </span>
