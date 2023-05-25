@@ -14,7 +14,7 @@ class PageController extends Controller
         return view('home');
     }
 
-    public function movies()
+    public function trains()
     {
         $trains = Train::all();
         return view('trains', compact('trains'));
