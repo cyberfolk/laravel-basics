@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Movie @yield('page_title')</title>
+    <title>Train @yield('page_title')</title>
     @vite('resources/scss/app.scss')
     @vite('resources/js/app.js')
 </head>
