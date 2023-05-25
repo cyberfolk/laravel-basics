@@ -13,6 +13,8 @@
                     <div class="badge bg-danger">Cancelled</div>
                     @elseif (!$train->in_time)
                     <span class="badge bg-warning">Delayed</span>
+                    @else
+                    <span class="badge bg-success">In time</span>
                     @endif
 {{--                     <img class="card-img-top" src="{{ $train->poster }}" alt="{{ $train->title }}"> --}}
 {{--                     <div class="card-body">
