@@ -17,4 +17,4 @@ Ogni treno dovrà avere i seguenti campi:
 
 ## Bonus: 
 
-Popolaréla tabella usando un seeder.
+Popolar la tabella usando un seeder.
