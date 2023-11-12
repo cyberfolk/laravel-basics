@@ -1,4 +1,9 @@
-# List of Laravel basics exercises
-- **Primi passi** &rarr; Implementare la navigazione tra le pagine e passare i dati alle rotte.
-- **Model Controller** &rarr; Richiamare da un db un array di film e stampare in apposite cards i dati di quei film. 
-- **Migration Seeder** &rarr; Creo un db direttamente da laravel usando le migration e i Seeder, epoi lo mostro in pagina usando delle opportune card.
+# Laravel Basics
+**Initial commit**: 22/05/23  
+
+**Technologies:** Laravel, PHP, Blade, MySql, Javascript, HTML, CSS e Bootstrap
+
+## List the exercises
+- **First steps** &rarr; Implement navigation between pages and pass data to routes.
+- **Model Controller** &rarr; Recall an array of films from a db and print the data of those films in the page.
+- **Migration Seeder** &rarr; Create a db directly from Laravel using migration and Seeders and then show it on the page.
