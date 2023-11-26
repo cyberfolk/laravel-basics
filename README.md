@@ -3,7 +3,7 @@
 
 **Technologies:** Laravel, PHP, Blade, MySql, Javascript, HTML, CSS e Bootstrap
 
-:diamonds: This Repo contains fundamental Laravel exercises such as:
+**Info**: :diamonds: This Repo contains fundamental Laravel exercises such as:
 
 ## Exercises list
 - **First steps** &rarr; Implement navigation between pages and pass data to routes.
